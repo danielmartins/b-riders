@@ -55,8 +55,6 @@ A API disponibiliza uma documentação por OpenApi Specification no endereço:
 
 http://localhost:8000/docs
 
-Nela você encontra informações de como criar e acompanhar a execução dos jobs.
-
 
 
 Testes
