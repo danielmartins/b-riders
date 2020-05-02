@@ -45,7 +45,8 @@ Quickstart
 
 Antes de fazer criação de classificação e submisão de corridas, é preciso fazer o login.
 
-![GIF demonstrating base installation](https://gist.githubusercontent.com/danielmartins/51252360eaec89fa366940129f635195/raw/58656d080ee3dcda219b6daa24f3893094640faa/b_riders_quickstart.gif)
+.. image:: https://gist.githubusercontent.com/danielmartins/51252360eaec89fa366940129f635195/raw/58656d080ee3dcda219b6daa24f3893094640faa/b_riders_quickstart.gif
+
 
 Documentação
 ------------
