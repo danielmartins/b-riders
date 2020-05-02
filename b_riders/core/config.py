@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     API_V1_STR: str = 'v1'
     SECRET_KEY: str = "change_this"
     BACKEND_CORS_ORIGINS: List[str] = []
+    TEST_SUPERUSER: str = "teste@teste.com"
+    TEST_SUPERUSER_PASSWORD: str = "teste"
 
 
 settings = Settings()

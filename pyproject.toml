@@ -26,6 +26,7 @@ coverage = "^5.1"
 black = "^19.10b0"
 pylink = "^0.3.3"
 pre-commit = "^2.3.0"
+requests = "^2.23.0"
 
 [tool.poetry.scripts]
 b_riders = 'b_riders.cli:app'
