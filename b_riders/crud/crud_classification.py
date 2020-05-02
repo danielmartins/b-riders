@@ -7,4 +7,4 @@ class CRUDClassification(CRUDBase[Classification, ClassificationCreate, Classifi
     pass
 
 
-item = CRUDClassification(Classification)
+classifications = CRUDClassification(Classification)
