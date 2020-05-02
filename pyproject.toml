@@ -16,6 +16,7 @@ pyjwt = "^1.7.1"
 passlib = "^1.7.2"
 pydantic = {extras = ["email"], version = "^1.5.1"}
 bcrypt = "^3.1.7"
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -25,6 +26,7 @@ coverage = "^5.1"
 black = "^19.10b0"
 pylink = "^0.3.3"
 pre-commit = "^2.3.0"
+requests = "^2.23.0"
 
 [tool.poetry.scripts]
 b_riders = 'b_riders.cli:app'
