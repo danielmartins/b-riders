@@ -11,10 +11,10 @@ router = APIRouter()
 
 @router.get("/", response_model=List[schemas.ClassificationInDBBase])
 def read_classifications(
-        db: Session = Depends(deps.get_db),
-        skip: int = 0,
-        limit: int = 100,
-        current_user: models.User = Depends(deps.get_current_active_superuser),
+    db: Session = Depends(deps.get_db),
+    skip: int = 0,
+    limit: int = 100,
+    current_user: models.User = Depends(deps.get_current_active_superuser),
 ) -> Any:
     """
     Retrieve rides.
@@ -24,10 +24,10 @@ def read_classifications(
 
 @router.post("/", response_model=schemas.ClassificationInDBBase)
 def create_classification(
-        *,
-        db: Session = Depends(deps.get_db),
-        classification_in: schemas.ClassificationCreate,
-        current_user: models.User = Depends(deps.get_current_active_user),
+    *,
+    db: Session = Depends(deps.get_db),
+    classification_in: schemas.ClassificationCreate,
+    current_user: models.User = Depends(deps.get_current_active_user),
 ) -> Any:
     """
     Create new item.

@@ -19,7 +19,7 @@ def create(begin: str, end: str, experience: int, user: int, classification: int
         end=end,
         experience=experience,
         owner_id=user,
-        classification_id=classification
+        classification_id=classification,
     )
     crud.ride.create(db, obj_in=ride_in)  # noqa: F841
     typer.echo("Ride created!")
